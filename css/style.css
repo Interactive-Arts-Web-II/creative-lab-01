@@ -16,10 +16,27 @@
     padding: 0;
 }
 
-/* DEVELOPER 1 STYLES */
+img{
+    width: 50px;
+}
 
+/* DEVELOPER 1 STYLES SAND*/
+.sand{
+    height: 800px;
+    width: 100%;
+    background-color: bisque;
+}
 
-/* DEVELOPER 2 STYLES */
+/* DEVELOPER 2 STYLES SHORE*/
+.shore{
+    height: 800px;
+    width: 100%;
+    background-color: turquoise;
+}
 
-
-/* DEVELOPER 3 STYLES */
+/* DEVELOPER 3 STYLES OCEAN*/
+.ocean{
+    height: 800px;
+    width: 100%;
+    background-color: blue;
+}
