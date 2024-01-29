@@ -27,6 +27,11 @@ img{
     background-color: bisque;
 }
 
+#crabvideo{
+    display: block;
+    margin: 1px auto;
+}
+
 /* DEVELOPER 2 STYLES SHORE*/
 .shore{
     height: 800px;
@@ -39,4 +44,17 @@ img{
     height: 800px;
     width: 100%;
     background-color: blue;
+}
+
+#oceantext{
+    font-family: miamibeach;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+video{
+    display: block;
+    margin: 5px auto;
+    width: 700px;
 }
