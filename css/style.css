@@ -27,6 +27,11 @@ img{
     background-color: bisque;
 }
 
+#crabvideo{
+    display: block;
+    margin: 1px auto;
+}
+
 /* DEVELOPER 2 STYLES SHORE*/
 .shore{
     height: 800px;
