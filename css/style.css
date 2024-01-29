@@ -1,3 +1,16 @@
+@font-face {
+    font-family: miamibeach;
+    src: url(../media/fonts/MiamiBeach.ttf);
+}
+@font-face {
+    font-family: sandbeach;
+    src: url(../media/fonts/sandbeach.ttf);
+}
+@font-face {
+    font-family: touristbeach;
+    src: url(../media/fonts/touristbeach.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
