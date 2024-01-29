@@ -16,6 +16,10 @@
     padding: 0;
 }
 
+img{
+    width: 50px;
+}
+
 /* DEVELOPER 1 STYLES SAND*/
 .sand{
     height: 800px;
