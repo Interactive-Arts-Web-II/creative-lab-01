@@ -1,14 +1,14 @@
 @font-face {
-    font-family: miamibeach;
-    src: url(../media/fonts/MiamiBeach.ttf);
+    font-family: midocean;
+    src: url(../media/fonts/midocean.otf);
 }
 @font-face {
     font-family: sandbeach;
     src: url(../media/fonts/sandbeach.ttf);
 }
 @font-face {
-    font-family: touristbeach;
-    src: url(../media/fonts/touristbeach.otf);
+    font-family: bitterpastry;
+    src: url(../media/fonts/bitterpastry.ttf);
 }
 
 *{
@@ -27,9 +27,18 @@ img{
     background-color: bisque;
 }
 
+.sand h1{
+    text-align: center;
+    font-family: sandbeach;
+    font-size: 5rem;
+    color: saddlebrown;
+}
+
 #crabvideo{
     display: block;
     margin: 1px auto;
+    width: 1200px;
+
 }
 
 /* DEVELOPER 2 STYLES SHORE*/
@@ -37,6 +46,19 @@ img{
     height: 800px;
     width: 100%;
     background-color: turquoise;
+}
+
+.shore h1{
+    text-align: center;
+    font-family: bitterpastry;
+    font-size: 5rem;
+    color: rgb(19, 121, 139);
+}
+
+#shorevideo{
+    display: block;
+    margin: 1px auto;
+    width: 1200px;
 }
 
 /* DEVELOPER 3 STYLES OCEAN*/
@@ -47,7 +69,7 @@ img{
 }
 
 #oceantext{
-    font-family: miamibeach;
+    font-family: midocean;
     font-size: 5rem;
     color: white;
     text-align: center;
@@ -56,51 +78,13 @@ img{
 video{
     display: block;
     margin: 5px auto;
-    width: 700px;
+    width: 1200px;
 }
 
-
-#anchor{
-    top: 300px;
-    left: 100px;
-    width: 25%;
+#whale3{
     position: absolute;
-    animation: anchorWidth 2s infinite;
+    left: 500px;
+    top: 220vh;
+    width: 250px;
 }
 
-#ball{
-    top: 500px;
-    left: 400px;
-    width: 5%;
-    animation: ballHeight 2s infinite;
-}
-
-
-#bubbles {  
-    top: 500px;
-    left: 400px;
-    width: 120%;
-position: absolute;
-animation: bubblesWidth 2s infinite;}
-
-@keyframes anchorWidth{
-    0%{width: 300px;}
-    50%{width: 350px;}
-    70%{width: 37px;}
-    100%{width: 300px;}
-}
-
-@keyframes ballHeight{
-    0%{width: 50px;}
-    50%{width: 55px;}
-    70%{width: 60px;}
-    100%{width: 50px;}
-    100%{width: 500px;}
-}
-
-
-@keyframes bubblesWidth{
-   0%{top: 400px;}
-   50%{top: 300px;}
-   100%{top: 500px;}
-}
