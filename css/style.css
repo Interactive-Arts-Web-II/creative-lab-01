@@ -27,9 +27,15 @@ img{
     background-color: bisque;
 }
 
+.sand h1{
+    text-align: center;
+}
+
 #crabvideo{
     display: block;
     margin: 1px auto;
+    width: 1200px;
+
 }
 
 /* DEVELOPER 2 STYLES SHORE*/
