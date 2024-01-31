@@ -100,21 +100,18 @@ video{
     margin: 5px auto;
     width: 1200px;
 }
+.ocean video{
+    animation: vidWidth 10s 2s infinite;
+}
 
 #whale3{
     position: absolute;
     left: 500px;
     top: 220vh;
     width: 250px;
-}
-
-.ocean video{
-    animation: vidWidth 10s 2s infinite;
-}
-
-
     animation: whaleSwim 15s infinite;
 }
+
 
 @keyframes whaleSwim {
     0%{left: 1200px; width:0px;}
