@@ -93,6 +93,38 @@ img{
     color: rgb(19, 121, 139);
 }
 
+
+#boyinboat{
+    top:1000px;
+    left:200px;
+    position: absolute;
+    width: 400px;
+    animation: boyinboatWidth 2s infinite;
+}
+@keyframes boyinboatWidth {
+0%{width: 400px;}
+50%{width: 300px;}
+70%{width: 500px;}
+100%{width: 300px;}
+}
+
+#pelican{
+    top:1000px;
+    left:600px;
+    position: absolute;
+    width: 100px;
+    animation: pelicanWidth 2s infinite;
+}
+
+@keyframes pelicanWidth {
+    0%{width: 400px;}
+    50%{width: 300px;}
+    70%{width: 500px;}
+    100%{width: 300px;}
+    }
+
+
+
 #shorevideo{
     display: block;
     margin: 1px auto;
