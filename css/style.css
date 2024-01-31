@@ -1,5 +1,5 @@
 @font-face {
-    font-family: miamibeach;
+    font-family: midocean;
     src: url(../media/fonts/MiamiBeach.ttf);
 }
 @font-face {
@@ -7,7 +7,7 @@
     src: url(../media/fonts/sandbeach.ttf);
 }
 @font-face {
-    font-family: touristbeach;
+    font-family: bitterpastry;
     src: url(../media/fonts/touristbeach.otf);
 }
 
@@ -53,7 +53,7 @@ img{
 }
 
 #oceantext{
-    font-family: miamibeach;
+    font-family: midocean;
     font-size: 5rem;
     color: white;
     text-align: center;
