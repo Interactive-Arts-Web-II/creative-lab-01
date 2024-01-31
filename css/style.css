@@ -57,6 +57,7 @@ img{
 .sand img{
     position: absolute;
     width: 300px
+    a 
 }
 
 #shell{
@@ -72,10 +73,6 @@ img{
 #shell3{
     left: 900px;
     top: 500px;
-}
-
-@keyframes movingShells{
-    0% {}
 }
 
 
@@ -123,6 +120,13 @@ img{
     100%{width: 300px;}
     }
 
+    #sailboat{
+        top:1200px;
+        left:800px;
+        position: absolute;
+        width: 100px;
+        animation: pelicanWidth 2s infinite;
+    }
 
 
 #shorevideo{
