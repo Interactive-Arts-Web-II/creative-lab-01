@@ -54,6 +54,30 @@ img{
     100% {width: 1200px;}
 }
 
+.sand img{
+    position: absolute;
+    width: 300px
+}
+
+#shell{
+    left: 300px;
+    top: 400px;
+}
+
+#shell2{
+    left: 600px;
+    top: 100px;
+}
+
+#shell3{
+    left: 900px;
+    top: 500px;
+}
+
+@keyframes movingShells{
+    0% {}
+}
+
 
 /* DEVELOPER 2 STYLES SHORE*/
 .shore{
