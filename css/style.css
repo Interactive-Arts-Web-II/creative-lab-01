@@ -48,6 +48,19 @@ img{
     background-color: turquoise;
 }
 
+.shore h1{
+    text-align: center;
+    font-family: bitterpastry;
+    font-size: 5rem;
+    color: rgb(19, 121, 139);
+}
+
+#shorevideo{
+    display: block;
+    margin: 1px auto;
+    width: 1200px;
+}
+
 /* DEVELOPER 3 STYLES OCEAN*/
 .ocean{
     height: 800px;
