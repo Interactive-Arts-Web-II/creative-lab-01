@@ -21,6 +21,10 @@ img{
 }
 
 /* DEVELOPER 1 STYLES SAND*/
+.shore body{
+    animation: bgColor 10s 2s infinite;
+}
+
 .sand{
     height: 800px;
     width: 100%;
@@ -38,8 +42,18 @@ img{
     display: block;
     margin: 1px auto;
     width: 1200px;
-
 }
+
+.sand video{
+    animation: vidWidth 10s 2s infinite;
+}
+
+@keyframes vidWidth{
+    0% {width: 1200px;}
+    50% {width: 1400px;}
+    100% {width: 1200px;}
+}
+
 
 /* DEVELOPER 2 STYLES SHORE*/
 .shore{
@@ -47,6 +61,25 @@ img{
     width: 100%;
     background-color: turquoise;
 }
+
+.shore h1{
+    text-align: center;
+    font-family: bitterpastry;
+    font-size: 5rem;
+    color: rgb(19, 121, 139);
+}
+
+#shorevideo{
+    display: block;
+    margin: 1px auto;
+    width: 1200px;
+}
+
+.shore video{
+    animation: vidWidth 10s 2s infinite;
+}
+
+
 
 /* DEVELOPER 3 STYLES OCEAN*/
 .ocean{
@@ -73,6 +106,13 @@ video{
     left: 500px;
     top: 220vh;
     width: 250px;
+}
+
+.ocean video{
+    animation: vidWidth 10s 2s infinite;
+}
+
+
     animation: whaleSwim 15s infinite;
 }
 
