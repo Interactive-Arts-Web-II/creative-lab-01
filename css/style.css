@@ -50,7 +50,7 @@ img{
 
 /* DEVELOPER 3 STYLES OCEAN*/
 .ocean{
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-color: blue;
 }
@@ -73,5 +73,35 @@ video{
     left: 500px;
     top: 220vh;
     width: 250px;
+    animation: whaleSwim 15s infinite;
 }
 
+@keyframes whaleSwim {
+    0%{left: 1200px; width:0px;}
+    50%{ left:1200px;  width: 250px;}
+    75%{left: 300px; width: 100px;}
+    100%{left: 300px; width:0px;}
+}
+
+#turtle{
+    position: absolute;
+    left: 500px;
+    top: 220vh;
+    width: 250px;
+    animation: turtleSwim 15s infinite;
+}
+
+@keyframes turtleSwim {
+    0%{left: 300px; width:0px;}
+    25%{left: 300px; width: 100px;}
+    75%{ left:1200px;  width: 250px;}
+    100%{left: 1200px; width:0px;}
+}
+
+#bubbles{
+    position: absolute;
+    left: 500px;
+    top: 220vh;
+    width: 250px;
+    animation: turtleSwim 15s infinite;
+}
