@@ -68,3 +68,10 @@ video{
     width: 1200px;
 }
 
+#whale3{
+    position: absolute;
+    left: 500px;
+    top: 220vh;
+    width: 250px;
+}
+
